@@ -1,0 +1,269 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "b4d2b4bc-cbc0-4c4b-aac8-edc2e6b33713",
+      "cell_type": "markdown",
+      "source": "## Variables",
+      "metadata": {
+        "language": "markdown",
+        "id": "b4d2b4bc-cbc0-4c4b-aac8-edc2e6b33713"
+      }
+    },
+    {
+      "id": "9915d40f-75eb-4817-ac6e-abd27c1406fb",
+      "cell_type": "code",
+      "source": "// Variables\nint age = 22;\nlong population = 8_000_000_000L;\ndouble price = 149.50;\nboolean active = true;\n\n\nchar grade = 'A';\n\n// automatic type inference using 'var' \nvar username = \"spider\"; // inferred as String",
+      "metadata": {
+        "language": "java",
+        "id": "9915d40f-75eb-4817-ac6e-abd27c1406fb",
+        "executionSummary": {
+          "executionOrder": 1,
+          "success": true
+        }
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "id": "0c1fd124-b8c4-4cb5-9fd9-ebe8b527108e",
+      "cell_type": "code",
+      "source": "static int add(int a, int b){\n    return a + b;\n}\nadd(4,5)",
+      "metadata": {
+        "language": "java",
+        "id": "0c1fd124-b8c4-4cb5-9fd9-ebe8b527108e",
+        "executionSummary": {
+          "executionOrder": 2,
+          "success": true
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "id": "7460ff98-2ab4-4f66-b04c-3776bb7f995c",
+      "cell_type": "code",
+      "source": "System.out.println(2.554E-3f)",
+      "metadata": {
+        "language": "java",
+        "id": "7460ff98-2ab4-4f66-b04c-3776bb7f995c",
+        "executionSummary": {
+          "executionOrder": 3,
+          "success": true
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0.002554\n"
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "id": "daf277f7-f610-4eb5-9b94-e92c880752fa",
+      "cell_type": "markdown",
+      "source": "## Data Types",
+      "metadata": {
+        "language": "markdown",
+        "id": "daf277f7-f610-4eb5-9b94-e92c880752fa"
+      }
+    },
+    {
+      "id": "bb03159d-48ce-41d4-a30e-5aefe55f0ac0",
+      "cell_type": "code",
+      "source": "// numbers \n\n// different types of numbers in java\nint decimal = 100; // decimal\nint octal = 0100; // octal\nint hex = 0x100; // hexadecimal\nint binary = 0b100; // binary\n\nlong bigNumber = 1_000_000_000L; // long with underscores for readability\n\nfloat floatNumber = 3.14f; // float\ndouble doubleNumber = 3.14159; // double\n\n// float and double are used for decimal numbers, but double has more precision than float\n\n// we can also use scientific notation for very large or very small numbers\ndouble avog = 6.022E23; // Avogadro's number\ndouble planck = 6.626E-34; // Planck's constant\n",
+      "metadata": {
+        "language": "java",
+        "id": "bb03159d-48ce-41d4-a30e-5aefe55f0ac0",
+        "executionSummary": {
+          "executionOrder": 4,
+          "success": true
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "id": "d7ef4b5c-98b3-4c79-bac0-3d7ecfb0d6f5",
+      "cell_type": "code",
+      "source": "// boolean values\nboolean isJavaFun = true;\nboolean isCSeasy = false;",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "id": "c7e8f732-3a69-46c3-b026-8f61b5029cb0",
+      "cell_type": "code",
+      "source": "// character values\nchar letter = 'A';  // single character\nString word = \"Hello\"; // string of characters",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 6,
+          "success": true
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "id": "c518962e-22e0-40dd-8edd-69ee13f69445",
+      "cell_type": "markdown",
+      "source": "## Type Casting",
+      "metadata": {
+        "language": "markdown",
+        "id": "c518962e-22e0-40dd-8edd-69ee13f69445"
+      }
+    },
+    {
+      "id": "0fc741e1-b748-4b14-8a09-99e88fdd27cb",
+      "cell_type": "code",
+      "source": "// basic type casting\nint x = 10;\ndouble y = x; // automatic type casting from int to double\n\n//  these were widening conversions, \n\n\n//  narrowing conversions require explicit casting\ndouble a = 9.78;\nint b = (int) a; // explicit type casting from double to int\n",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 7,
+          "success": true
+        }
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "id": "db5e57fe-9ff1-4ae6-9eee-cf1f44c38434",
+      "cell_type": "markdown",
+      "source": "## Operators",
+      "metadata": {
+        "language": "markdown",
+        "id": "db5e57fe-9ff1-4ae6-9eee-cf1f44c38434"
+      }
+    },
+    {
+      "id": "efb0f8c2-0d86-44d0-b132-b6f4d089550d",
+      "cell_type": "code",
+      "source": "// operators\nint sum = 5 + 3; // addition\nint difference = 5 - 3; // subtraction\nint product = 5 * 3; // multiplication\ndouble quotient = 5.0 / 3.0; // division\nint remainder = 5 % 3; // modulus\nint increment = 5; increment++; // increment\nint decrement = 5; decrement--; // decrement\nboolean isEqual = (5 == 3); // equality\nboolean isNotEqual = (5 != 3); // inequality\n\nboolean isGreater = (5 > 3); // greater than\nboolean isLess = (5 < 3); // less than\nboolean isGreaterOrEqual = (5 >= 3); // greater than or equal to\nboolean isLessOrEqual = (5 <= 3); // less than or equal to\n\nboolean andCondition = (5 > 3) && (5 < 10); // logical AND\nboolean orCondition = (5 > 3) || (5 < 10); // logical OR\nboolean notCondition = !(5 > 3); // logical NOT \n\n",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 8,
+          "success": true
+        }
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "id": "d0d45c7e-f14d-4d8b-954d-ab2100d6d272",
+      "cell_type": "markdown",
+      "source": "## Math Functions",
+      "metadata": {
+        "language": "markdown",
+        "id": "d0d45c7e-f14d-4d8b-954d-ab2100d6d272"
+      }
+    },
+    {
+      "id": "1d514299-4312-47c9-8101-59b7ada70613",
+      "cell_type": "code",
+      "source": "Math.abs(-5) // absolute value\nMath.sqrt(16) // square root\nMath.pow(2, 3) // power\nMath.sin(Math.PI / 2) // sine",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "0f418e69-1b61-4f41-a4d4-38168e0354bd",
+      "cell_type": "markdown",
+      "source": "## If Else Statements",
+      "metadata": {
+        "language": "markdown",
+        "id": "0f418e69-1b61-4f41-a4d4-38168e0354bd"
+      }
+    },
+    {
+      "id": "243690c5-f661-4542-ba36-2bda05038873",
+      "cell_type": "code",
+      "source": "int number = 10;\nif (number > 0) {\n    System.out.println(\"The number is positive.\");\n} else if (number < 0) {\n    System.out.println(\"The number is negative.\");\n} else {\n    System.out.println(\"The number is zero.\");\n}\n// nested if-else statements\nint score = 85;\nif (score >= 90) {\n    System.out.println(\"Grade: A\");\n} else if (score >= 80) {\n    System.out.println(\"Grade: B\");\n} else if (score >= 70) {\n    System.out.println(\"Grade: C\");\n} else if (score >= 60) {\n    System.out.println(\"Grade: D\");\n} else {\n    System.out.println(\"Grade: F\");\n}",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "93546b99-31fb-4990-86cb-c0607cf182a4",
+      "cell_type": "code",
+      "source": "// shorthand if-else (ternary operator)\nint num = 10;\nString result = (num % 2 == 0) ? \"Even\" : \"Odd\";\nSystem.out.println(result); // Output: Even\n\n// nested ternary operator\nint number2 = 15;\nString result2 = (number2 > 0) ? \"Positive\" : (number2 < 0) ? \"Negative\" : \"Zero\";\nSystem.out.println(result2); // Output",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
