@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "b4d2b4bc-cbc0-4c4b-aac8-edc2e6b33713",
+      "cell_type": "markdown",
+      "source": "## Variables",
+      "metadata": {
+        "language": "markdown",
+        "id": "b4d2b4bc-cbc0-4c4b-aac8-edc2e6b33713"
+      }
+    },
+    {
+      "id": "9915d40f-75eb-4817-ac6e-abd27c1406fb",
+      "cell_type": "code",
+      "source": "int age = 22;\nlong population = 8_000_000_000L;\ndouble price = 149.50;\nboolean active = true;\nchar grade = 'A';\n\nvar username = \"spider\";",
+      "metadata": {
+        "language": "java",
+        "id": "9915d40f-75eb-4817-ac6e-abd27c1406fb",
+        "executionSummary": {
+          "executionOrder": 1,
+          "success": true
+        }
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "id": "daf277f7-f610-4eb5-9b94-e92c880752fa",
+      "cell_type": "markdown",
+      "source": "## Data Types",
+      "metadata": {
+        "language": "markdown",
+        "id": "daf277f7-f610-4eb5-9b94-e92c880752fa"
+      }
+    },
+    {
+      "id": "bb03159d-48ce-41d4-a30e-5aefe55f0ac0",
+      "cell_type": "code",
+      "source": "int decimal = 100;\nint octal = 0100;\nint hex = 0x100;\nint binary = 0b100;\n\nlong bigNumber = 1_000_000_000L;\nfloat floatNumber = 3.14f;\ndouble doubleNumber = 3.14159;\n\ndouble avogadro = 6.022E23;\ndouble planck = 6.626E-34;",
+      "metadata": {
+        "language": "java",
+        "id": "bb03159d-48ce-41d4-a30e-5aefe55f0ac0",
+        "executionSummary": {
+          "executionOrder": 4,
+          "success": true
+        }
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "id": "d7ef4b5c-98b3-4c79-bac0-3d7ecfb0d6f5",
+      "cell_type": "code",
+      "source": "boolean isJavaFun = true;\nboolean isCSEasy = false;",
+      "metadata": {
+        "language": "java",
+        "id": "d7ef4b5c-98b3-4c79-bac0-3d7ecfb0d6f5",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "id": "c7e8f732-3a69-46c3-b026-8f61b5029cb0",
+      "cell_type": "code",
+      "source": "char letter = 'A';\nString word = \"Hello\";",
+      "metadata": {
+        "language": "java",
+        "id": "c7e8f732-3a69-46c3-b026-8f61b5029cb0",
+        "executionSummary": {
+          "executionOrder": 6,
+          "success": true
+        }
+      },
+      "execution_count": 6,
+      "outputs": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "0f418e69-1b61-4f41-a4d4-38168e0354bd",
+      "cell_type": "markdown",
+      "source": "## If Else Statements",
+      "metadata": {
+        "language": "markdown",
+        "id": "0f418e69-1b61-4f41-a4d4-38168e0354bd"
+      }
+    },
+    {
+      "id": "243690c5-f661-4542-ba36-2bda05038873",
+      "cell_type": "code",
+      "source": "int number = 10;\n\nif (number > 0) {\n    System.out.println(\"Positive\");\n} else if (number < 0) {\n    System.out.println(\"Negative\");\n} else {\n    System.out.println(\"Zero\");\n}",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "93546b99-31fb-4990-86cb-c0607cf182a4",
+      "cell_type": "code",
+      "source": "int num = 10;\nString result = num % 2 == 0 ? \"Even\" : \"Odd\";\nSystem.out.println(result);",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "fd1556e4-ab25-4c6c-b709-1b3058ba683e",
+      "cell_type": "markdown",
+      "source": "## Switch Statements",
+      "metadata": {
+        "language": "markdown",
+        "id": "fd1556e4-ab25-4c6c-b709-1b3058ba683e"
+      }
+    },
+    {
+      "id": "d8c11243-13fb-4465-b239-65e5a452aa09",
+      "cell_type": "code",
+      "source": "int finalVariable = 2;\n\nswitch (finalVariable) {\n    case 1:\n        System.out.println(\"One\");\n        break;\n    case 2:\n        System.out.println(\"Two\");\n        break;\n    case 3:\n        System.out.println(\"Three\");\n        break;\n    default:\n        System.out.println(\"Other number\");\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 4,
+          "success": true
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "Two\nThree\n"
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    }
+  ]
+}

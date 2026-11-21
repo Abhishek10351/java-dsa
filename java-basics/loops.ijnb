@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "21aa78b7-70dd-4a12-b966-6861588bb00f",
+      "cell_type": "markdown",
+      "source": "## While Loops",
+      "metadata": {
+        "language": "markdown",
+        "id": "21aa78b7-70dd-4a12-b966-6861588bb00f"
+      }
+    },
+    {
+      "id": "cb41da84-3856-4eca-9aef-b1d9649e6fa4",
+      "cell_type": "code",
+      "source": "int i = 0;\nwhile (i < 5) {\n    System.out.println(i);\n    i++;\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0\n1\n2\n3\n4\n"
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "id": "1e9d46a8-3340-40e3-a914-73108e464438",
+      "cell_type": "code",
+      "source": "int j = 0;\ndo {\n    System.out.println(j);\n    j++;\n} while (j < 5);",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 6,
+          "success": true
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0\n1\n2\n3\n4\n"
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    }
+  ]
+}

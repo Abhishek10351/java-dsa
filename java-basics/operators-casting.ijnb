@@ -1,0 +1,104 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "c518962e-22e0-40dd-8edd-69ee13f69445",
+      "cell_type": "markdown",
+      "source": "## Type Casting",
+      "metadata": {
+        "language": "markdown",
+        "id": "c518962e-22e0-40dd-8edd-69ee13f69445"
+      }
+    },
+    {
+      "id": "0fc741e1-b748-4b14-8a09-99e88fdd27cb",
+      "cell_type": "code",
+      "source": "int x = 10;\ndouble y = x;\n\ndouble a = 9.78;\nint b = (int) a;",
+      "metadata": {
+        "language": "java",
+        "id": "0fc741e1-b748-4b14-8a09-99e88fdd27cb",
+        "executionSummary": {
+          "executionOrder": 3,
+          "success": true
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "id": "db5e57fe-9ff1-4ae6-9eee-cf1f44c38434",
+      "cell_type": "markdown",
+      "source": "## Operators",
+      "metadata": {
+        "language": "markdown",
+        "id": "db5e57fe-9ff1-4ae6-9eee-cf1f44c38434"
+      }
+    },
+    {
+      "id": "efb0f8c2-0d86-44d0-b132-b4f089550d",
+      "cell_type": "code",
+      "source": "int sum = 5 + 3;\nint difference = 5 - 3;\nint product = 5 * 3;\ndouble quotient = 5.0 / 3.0;\nint remainder = 5 % 3;\n\nint increment = 5;\nint decrement = 5;\nincrement++;\ndecrement--;\n\n// following operators have boolean results\nboolean isEqual = 5 == 3;\nboolean isGreater = 5 > 3;\nboolean isLessOrEqual = 5 <= 3;\n\nboolean andCondition = (5 > 3) && (5 < 10);\nboolean orCondition = (5 > 3) || (5 < 10);\nboolean notCondition = !(5 > 3);",
+      "metadata": {
+        "language": "java",
+        "id": "efb0f8c2-0d86-44d0-b132-b4f089550d",
+        "executionSummary": {
+          "executionOrder": 4,
+          "success": true
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "id": "d0d45c7e-f14d-4d8b-954d-ab2100d6d272",
+      "cell_type": "markdown",
+      "source": "## Math Functions",
+      "metadata": {
+        "language": "markdown",
+        "id": "d0d45c7e-f14d-4d8b-954d-ab2100d6d272"
+      }
+    },
+    {
+      "id": "1d514299-4312-47c9-8101-59b7ada70613",
+      "cell_type": "code",
+      "source": "Math.abs(-5);\nMath.sqrt(16);\nMath.pow(2, 3);\nMath.sin(Math.PI / 2);",
+      "metadata": {
+        "language": "java",
+        "id": "1d514299-4312-47c9-8101-59b7ada70613",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    }
+  ]
+}
